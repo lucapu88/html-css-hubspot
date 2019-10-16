@@ -6,29 +6,92 @@
 
 header {
   background-color: #FFF4EE;
-  height: 500px;
+  height: 720px;
+  background-image: url('https://i.postimg.cc/W4tGDrzm/Immagine.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 1500px;
 }
 
+
 #barra_fissa {
-  background-color: #F9EBE8;
-  height: 100px;
+  position: fixed;
+  top: 0;
+  line-height: 80px;
+  background-color: #F5F8FA;
+  height: 80px;
   width: 100%;
-  position: relative;
   border-bottom: 1px solid lightgrey;
 }
 
 .english_contact {
-  background-color: blue;
-  height: 100px;
+  height: 80px;
   width: 40%;
+  position: absolute;
+  left: 10%;
+  float: left;
+}
+
+.login_getsup {
+  background-color: yellow;
+  height: 80px;
+  width: 40%;
+  position: absolute;
+  right: 10%;
+}
+
+.barra_logo {
+  line-height: 80px;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+
+.logo_left {
+  height: 80px;
+  width: 30%;
   position: absolute;
   left: 10%;
 }
 
-.login_getsup {
-  background-color: green;
-  height: 100px;
-  width: 40%;
+.menu_right {
+  height: 100%;
+  width: 50%;
   position: absolute;
   right: 10%;
+}
+
+.language a {
+  float: left;
+  text-decoration: none;
+  color: grey;
+}
+
+.freccia {
+  border-right: 1px solid grey;
+  margin-left: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 20px;
+}
+
+.login_getsup {
+  float: right;
+}
+
+.sezioni {
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #4682B4;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
 }
