@@ -1,0 +1,34 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FFF4EE;
+  height: 500px;
+}
+
+#barra_fissa {
+  background-color: #F9EBE8;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid lightgrey;
+}
+
+.english_contact {
+  background-color: blue;
+  height: 100px;
+  width: 40%;
+  position: absolute;
+  left: 10%;
+}
+
+.login_getsup {
+  background-color: green;
+  height: 100px;
+  width: 40%;
+  position: absolute;
+  right: 10%;
+}
