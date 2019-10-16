@@ -33,7 +33,6 @@ header {
 }
 
 .login_getsup {
-  background-color: yellow;
   height: 80px;
   width: 40%;
   position: absolute;
@@ -80,18 +79,42 @@ header {
   margin-left: 20px;
 }
 
-.login_getsup {
+.login_getsup a {
   float: right;
 }
+/* PERCHE??? */
 
 .sezioni {
   float: right;
   margin-right: 20px;
   text-decoration: none;
-  color: #4682B4;
+  color: #003366;
   font-size: 20px;
 }
 
 li {
   list-style: none;
+}
+
+.jumbo-contenitore {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+}
+
+.jumbo {
+  width: 450px;
+  text-align: left;
+  font-size: 30px;
+  color: #003366;
+}
+
+.jumbo-bottom {
+  width: 350px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.butonGet {
+  margin-top: 10px;
 }
