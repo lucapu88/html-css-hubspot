@@ -185,6 +185,7 @@ button:hover {
 
 .contenitore-CuboRubik {
   width: 80%;
+  margin: 0 auto;
   text-align: center;
 } /* DA CENTRARE */
 
@@ -192,26 +193,54 @@ button:hover {
   padding-top: 80px;
   font-family: 'Open Sans', sans-serif;
   color: #003366;
+  text-align: center;
 }
 
 .freeHubSpot {
   background-color: white;
   width: 900px;
   height: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 .imgLibro-buttonLearn {
   text-align: center;
-  margin-top: 40px;
-  margin-left: 140px;
+  width: 30%;
+  height: 70%;
   float: left;
+  margin-top: 40px;
+  margin-left: 5%;
+  border: 1px solid black;
 }
 
 .learn {
   margin-top: 20px;
 }
 
+.h3 {
+  margin-bottom: 15px;
+}
+
 .textFreeHub {
+  border: 1px solid black;
+  width: 60%;
+  float: right;
   margin-top: 40px;
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #003366;
+}
+
+.fa-check-circle {
+  color: #FF8F73;
+}
+
+.popular-features {
+  border: 1px solid black;
+  width: 60%;
+  float: right;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #003366;
 }
