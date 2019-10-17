@@ -12,8 +12,7 @@ header {
   background-position: bottom;
   background-size: 1500px;
 }
-
-
+/* INIZIO BARRA FISSA */
 #barra_fissa {
   position: fixed;
   top: 0;
@@ -35,36 +34,9 @@ header {
 
 .login_getsup {
   height: 80px;
-  width: 40%;
+  width: 20%;
   position: absolute;
   right: 10%;
-}
-
-.barra_logo {
-  line-height: 80px;
-  background-color: white;
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  top: 80px;
-}
-
-.logo_left {
-  height: 80px;
-  width: 30%;
-  position: absolute;
-  left: 10%;
-}
-
-.menu_right {
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  right: 10%;
-}
-
-.scelta_sezioni {
-  float: right;
 }
 
 .language a {
@@ -83,7 +55,10 @@ header {
   color: grey;
   margin-left: 20px;
 }
-
+.cerca {
+  margin-right: 30px;
+}
+/* Pulsanti */
 .login {
   color: #FF8F73;
   background-color: white;
@@ -101,9 +76,40 @@ header {
 }
 
 .login_getsup a {
+  float: left;
+}
+/* FINE BARRA FISSA */
+/* INIZIO BARRA LOGO BIANCA */
+.barra_logo {
+  line-height: 80px;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+
+.logo_left {
+  height: 80px;
+  width: 30%;
+  position: absolute;
+  left: 10%;
+}
+
+.imgLogo:hover {
+  cursor: pointer;
+}
+
+.menu_right {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 10%;
+}
+
+.scelta_sezioni {
   float: right;
 }
-/* PERCHE??? */
 
 .sezioni {
   float: left;
@@ -117,6 +123,7 @@ li {
   list-style: none;
   font-family: 'Open Sans', sans-serif;
 }
+/* FINE BARRA LOGO BIANCA */
 
 .jumbo-contenitore {
   position: absolute;
@@ -168,18 +175,23 @@ button:hover {
   color: white;
 }
 
+.header-second {
+  background-color: #F5F8FA;
+}
+
 .contenitore-CuboRubik {
-  background-color: blue;
-  width: 70%;
+  width: 80%;
   height: 600px;
   position: relative;
-  left: 15%;
+  left: 10%;
 }
 
 .cubo {
-  background-color: yellow;
   position: absolute;
-  width: 35%;
-  left: 17.5%;
-
+  width: 70%;
+  left: 15%;
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: #003366;
+  text-align: center;
 }
