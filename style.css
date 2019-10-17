@@ -185,14 +185,13 @@ button:hover {
 
 .contenitore-CuboRubik {
   width: 80%;
-  height: 600px;
+  text-align: center;
 } /* DA CENTRARE */
 
 .cubo {
   padding-top: 80px;
   font-family: 'Open Sans', sans-serif;
   color: #003366;
-  text-align: center;
 }
 
 .freeHubSpot {
@@ -212,7 +211,7 @@ button:hover {
   margin-top: 20px;
 }
 
-.h3 .text-In {
+.textFreeHub {
   margin-top: 40px;
   text-align: left;
 }
