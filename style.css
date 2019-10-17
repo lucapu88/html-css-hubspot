@@ -22,6 +22,7 @@ header {
   height: 80px;
   width: 100%;
   border-bottom: 1px solid lightgrey;
+  z-index: 5;
 }
 
 .english_contact {
@@ -153,4 +154,32 @@ button:hover {
   text-align: left;
   margin-top: 20px;
   font-size: 15px;
+}
+
+.chat {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #415A77;
+  border-style: none;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 35px;
+  color: white;
+}
+
+.contenitore-CuboRubik {
+  background-color: blue;
+  width: 70%;
+  height: 600px;
+  position: relative;
+  left: 15%;
+}
+
+.cubo {
+  background-color: yellow;
+  position: absolute;
+  width: 35%;
+  left: 17.5%;
+
 }
