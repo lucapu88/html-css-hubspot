@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #F5F8FA;
+}
 
 header {
   background-color: #FFF4EE;
@@ -16,6 +19,12 @@ header {
 .container {
   width: 1080px;
   margin: 0 auto;
+}
+
+.clearfix:after {
+  clear: both;
+  display: table;
+  content: '';
 }
 
 #barra_fissa {
@@ -161,6 +170,7 @@ button:hover {
   font-size: 15px;
 }
 
+/* PULSANTE CHAT TONDO FISSO */
 .chat {
   position: fixed;
   bottom: 15px;
@@ -173,21 +183,36 @@ button:hover {
   color: white;
 }
 
-.header-second {
-  background-color: #F5F8FA;
-}
-
 .contenitore-CuboRubik {
   width: 80%;
   height: 600px;
-  float: left;
-}
+} /* DA CENTRARE */
 
 .cubo {
-  width: 70%;
-  padding-top: 50px;
+  padding-top: 80px;
   font-family: 'Open Sans', sans-serif;
   color: #003366;
   text-align: center;
+}
+
+.freeHubSpot {
+  background-color: white;
+  width: 900px;
+  height: 300px;
+}
+
+.imgLibro-buttonLearn {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 140px;
   float: left;
+}
+
+.learn {
+  margin-top: 20px;
+}
+
+.h3 .text-In {
+  margin-top: 40px;
+  text-align: left;
 }
