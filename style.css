@@ -7,12 +7,17 @@
 header {
   background-color: #FFF4EE;
   height: 720px;
-  background-image: url('https://i.postimg.cc/W4tGDrzm/Immagine.png');
+  background-image: url('https://files.slack.com/files-pri/T91QPE3BP-FP2EWTZ0A/immagine.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 1500px;
 }
 /* INIZIO BARRA FISSA */
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
 #barra_fissa {
   position: fixed;
   top: 0;
@@ -27,16 +32,14 @@ header {
 .english_contact {
   height: 80px;
   width: 40%;
-  position: absolute;
-  left: 10%;
   float: left;
 }
 
 .login_getsup {
   height: 80px;
-  width: 20%;
-  position: absolute;
-  right: 10%;
+  width: 60%;
+  float: left;
+  text-align: right;
 }
 
 .language a {
@@ -56,7 +59,11 @@ header {
   margin-left: 20px;
 }
 .cerca {
-  margin-right: 30px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.pulsanti {
+  display: inline-block;
 }
 /* Pulsanti */
 .login {
@@ -74,26 +81,21 @@ header {
   border-color: #FF8F73;
   padding: 10px;
 }
-
-.login_getsup a {
-  float: left;
-}
 /* FINE BARRA FISSA */
 /* INIZIO BARRA LOGO BIANCA */
+
 .barra_logo {
+  margin-top: 80px;
   line-height: 80px;
   background-color: white;
   height: 80px;
   width: 100%;
-  position: absolute;
-  top: 80px;
 }
 
 .logo_left {
   height: 80px;
   width: 30%;
-  position: absolute;
-  left: 10%;
+  float: left;
 }
 
 .imgLogo:hover {
@@ -103,8 +105,7 @@ header {
 .menu_right {
   height: 100%;
   width: 50%;
-  position: absolute;
-  right: 10%;
+  float: right;
 }
 
 .scelta_sezioni {
@@ -124,11 +125,8 @@ li {
   font-family: 'Open Sans', sans-serif;
 }
 /* FINE BARRA LOGO BIANCA */
-
 .jumbo-contenitore {
-  position: absolute;
-  left: 10%;
-  top: 35%;
+  margin-top: 70px;
 }
 
 .jumbo {
@@ -182,16 +180,14 @@ button:hover {
 .contenitore-CuboRubik {
   width: 80%;
   height: 600px;
-  position: relative;
-  left: 10%;
+  float: left;
 }
 
 .cubo {
-  position: absolute;
   width: 70%;
-  left: 15%;
   padding-top: 50px;
   font-family: 'Open Sans', sans-serif;
   color: #003366;
   text-align: center;
+  float: left;
 }
