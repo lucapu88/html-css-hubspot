@@ -240,6 +240,7 @@ button:hover {
   width: 60%;
   float: right;
   margin-top: 40px;
+  position: relative;
 }
 
 h4::after {
@@ -249,8 +250,8 @@ h4::after {
   margin-left: 10px;
   border-bottom: 1px solid lightgrey;
   top: 4px;
-  width: 100%;
-} /* DA VEDERE */
+  width: 250px;
+}
 /* FINE CONTENITORE LIBRO */
 /* INIZIO CONTENITORE CON 3 BLOCCHI */
 .contain3Block {
@@ -291,7 +292,7 @@ h4::after {
 
 .allinea-left {
   text-align: left;
-  padding: 10px; /* PERCHè NON LO DA ANCHE A DESTRA??? */
+  padding: 10%;
 }
 /* FINE CONTENITORE 3 BLOCCHI */
 /* INIZIO BLOCCO AZZURRO */
@@ -311,6 +312,31 @@ h4::after {
 }
 
 .griglia {
-  background-color: yellow;
-  height: 500px;
+  height: 354;
+  width: 1080px;
+  margin-top: 50px;
+}
+
+.griglia-content {
+  width: 270px;
+  text-align: center;
+  float: left;
+  padding: 30px;
+}
+
+.numeri {
+  font-size: 40px;
+}
+
+.quadro1, .quadro2, .quadro3 {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.quadro4 {
+  border-bottom: 1px solid white;
+}
+
+.quadro5, .quadro6, .quadro7 {
+  border-right: 1px solid white;
 }
