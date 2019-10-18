@@ -5,6 +5,8 @@
 }
 body {
   background-color: #F5F8FA;
+  font-family: 'Open Sans', sans-serif;
+  color: #003366;
 }
 
 header {
@@ -54,7 +56,7 @@ header {
 .language a {
   float: left;
   text-decoration: none;
-  color: grey;
+  color: #003366;
 }
 
 .freccia {
@@ -64,7 +66,7 @@ header {
 
 .contact a {
   text-decoration: none;
-  color: grey;
+  color: #003366;
   margin-left: 20px;
 }
 .cerca {
@@ -76,23 +78,26 @@ header {
 }
 /* Pulsanti */
 .login {
-  color: #FF8F73;
+  color: #ff7a59;
   background-color: white;
   border-radius: 5px;
-  border-color: #FF8F73;
+  border-color: #ff7a59;
   padding: 10px;
 }
 
 .get {
-  background-color: #FF8F73;
+  background-color: #ff7a59;
   color: white;
   border-radius: 5px;
-  border-color: #FF8F73;
+  border-color: #ff7a59;
   padding: 10px;
+}
+
+.get:hover {
+  background-color: #FF8F73;
 }
 /* FINE BARRA FISSA */
 /* INIZIO BARRA LOGO BIANCA */
-
 .barra_logo {
   margin-top: 80px;
   line-height: 80px;
@@ -125,13 +130,12 @@ header {
   float: left;
   margin-right: 20px;
   text-decoration: none;
-  color: #003366;
   font-size: 15px;
+  color: #003366;
 }
 
 li {
   list-style: none;
-  font-family: 'Open Sans', sans-serif;
 }
 /* FINE BARRA LOGO BIANCA */
 .jumbo-contenitore {
@@ -142,8 +146,6 @@ li {
   width: 500px;
   text-align: left;
   font-size: 30px;
-  color: #003366;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbo-bottom {
@@ -151,7 +153,7 @@ li {
   text-align: left;
   margin-top: 20px;
   text-align: left;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .butonGet {
@@ -167,10 +169,10 @@ button:hover {
   width: 200px;
   text-align: left;
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
-/* PULSANTE CHAT TONDO FISSO */
+/* Pulsante chat tondo fisso nell'angolo basso/destra */
 .chat {
   position: fixed;
   bottom: 15px;
@@ -183,6 +185,7 @@ button:hover {
   color: white;
 }
 
+/* INIZIO CONTENITORE CON CUBO */
 .contenitore-CuboRubik {
   width: 80%;
   margin: 0 auto;
@@ -191,14 +194,14 @@ button:hover {
 
 .cubo {
   padding-top: 80px;
-  font-family: 'Open Sans', sans-serif;
-  color: #003366;
   text-align: center;
   margin-bottom: 50px;
 }
-
+/* FINE CONTENITORE CUBO */
+/* INIZIO CONTENITORE LIBRO */
 .freeHubSpot {
   background-color: white;
+  border-radius: 5px;
   width: 900px;
   height: 300px;
   margin: 0 auto;
@@ -227,46 +230,60 @@ button:hover {
   float: right;
   margin-top: 40px;
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  color: #003366;
 }
 
 .fa-check-circle {
-  color: #FF8F73;
+  color: #ff7a59;
 }
 
 .popular-features {
   width: 60%;
   float: right;
   margin-top: 40px;
-  font-family: 'Open Sans', sans-serif;
-  color: #003366;
 }
 
+h4::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  margin-left: 10px;
+  border-bottom: 1px solid lightgrey;
+  top: 4px;
+  width: 100%;
+} /* DA VEDERE */
+/* FINE CONTENITORE LIBRO */
+/* INIZIO CONTENITORE CON 3 BLOCCHI */
 .contain3Block {
-  border: 1px solid black;
   background-color: white;
   width: 900px;
   margin: 0 auto;
 }
 
-.containMarketingLeft {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+.contain {
+  background-color: white;
+  border-radius: 5px;
+  height: 900px;
+  width: 280px;
   float: left;
+  text-align: center;
 }
 
-.containSalesCenter {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
-  float: left;
+.MarketingLeft, .SalesCenter {
+  margin-right: 30px;
 }
 
-.containServiceRight {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  float: right;
+.img-text {
+  width: 280px;
+  padding: 40px;
+  text-align: center;
+}
+
+.testo-allineatoLeft {
+  text-align: left;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.linea {
+  border-bottom: 1px solid lightgrey;
 }
