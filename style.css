@@ -265,6 +265,7 @@ h4::after {
   width: 280px;
   float: left;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .MarketingHub, .SalesHub {
@@ -291,4 +292,25 @@ h4::after {
 .allinea-left {
   text-align: left;
   padding: 10px; /* PERCHè NON LO DA ANCHE A DESTRA??? */
+}
+/* FINE CONTENITORE 3 BLOCCHI */
+/* INIZIO BLOCCO AZZURRO */
+.blocco-azzurro {
+  height: 900px;
+  background-color: #00AFB2;
+  margin-top: 100px;
+  color: white;
+}
+
+.text-center {
+  padding-top: 100px;
+}
+
+.testo-bianco {
+  padding-top: 20px;
+}
+
+.griglia {
+  background-color: yellow;
+  height: 500px;
 }
