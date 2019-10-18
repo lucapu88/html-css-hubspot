@@ -202,6 +202,7 @@ button:hover {
   width: 900px;
   height: 300px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .imgLibro-buttonLearn {
@@ -240,4 +241,32 @@ button:hover {
   margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
   color: #003366;
+}
+
+.contain3Block {
+  border: 1px solid black;
+  background-color: white;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.containMarketingLeft {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: left;
+}
+
+.containSalesCenter {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+}
+
+.containServiceRight {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  float: right;
 }
