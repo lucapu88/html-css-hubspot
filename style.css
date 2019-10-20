@@ -166,11 +166,15 @@ button:hover {
 }
 
 .paragrafo-sotto-button {
-  width: 200px;
   text-align: left;
   margin-top: 20px;
   font-size: 13px;
+  width: 200px;
 }
+
+/* .paragrafo-sotto-button:first-of-type {
+  width: 200px;
+} PERCHE' PRENDE IL SECONDO FIGLIO E NON IL PRIMO? */
 
 /* Pulsante chat tondo fisso nell'angolo basso/destra */
 .chat {
@@ -343,7 +347,6 @@ h4::after {
 /* FINE BLOCCO AZZURRO */
 /* INIZIO BLOCCO BIANCO PRIMA DEL FOOTER */
 .blocco-finale {
-  border-radius: 5px;
   width: 1000px;
   height: 300px;
   margin: 0 auto;
@@ -359,15 +362,56 @@ h4::after {
   text-align: left;
   padding-top: 15%;
   float: left;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .img-customers {
   width: 650px;
-  float: left;
+  float: right;
   padding-top: 15%;
 }
 
 .custom {
-  padding-left: 60px;
+  padding: 20px;
+  float: left;
+  margin-left: 12px;
+}
+
+.start-growing {
+  margin-top: 10%;
+  height: 500px;
+}
+
+.text-startGrowing {
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-top: 5%;
+}
+
+.titolo {
+  margin-bottom: 5%;
+}
+
+.img-startGrowing {
+  width: 40%;
+  height: 500px;
+  float: right;
+}
+
+.paragrafo-sotto-button2 {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.getHub {
+  margin-top: 5%;
+  padding: 4%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.ragazza {
+  float: right;
 }
