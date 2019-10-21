@@ -184,7 +184,7 @@ button:hover {
   background-color: #415A77;
   border-style: none;
   padding: 15px;
-  border-radius: 50px;
+  border-radius: 50%;
   font-size: 35px;
   color: white;
 }
@@ -298,6 +298,11 @@ h4::after {
   text-align: left;
   padding: 10%;
 }
+
+.popularFeatures {
+  line-height: 1.6;
+}
+
 /* FINE CONTENITORE 3 BLOCCHI */
 /* INIZIO BLOCCO AZZURRO */
 .blocco-azzurro {
@@ -440,7 +445,7 @@ footer {
 }
 
 .li {
-  margin-top: 5%;
+  line-height: 250%;
 }
 
 .buttonwhite {
