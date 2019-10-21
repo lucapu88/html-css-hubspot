@@ -482,8 +482,7 @@ footer {
 }
 
 .listaFooter {
-  justify-content: center;
-  display: flex;
+  margin-left: 25%;
 }
 
 .ultima-barra {
