@@ -69,6 +69,7 @@ header {
   color: #003366;
   margin-left: 20px;
 }
+
 .cerca {
   display: inline-block;
   margin-right: 20px;
@@ -471,7 +472,7 @@ footer {
 .lingua {
   float: left;
   list-style: none;
-  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .lenguageSelect {
@@ -479,10 +480,12 @@ footer {
   height: 60px;
   float: left;
   margin-top: 5%;
+  text-align: center;
 }
 
 .listaFooter {
-  margin-left: 25%;
+  display: inline-block;
+  width: 50%;
 }
 
 .ultima-barra {
