@@ -60,14 +60,15 @@ header {
 }
 
 .freccia {
-  border-right: 1px solid grey;
-  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contact a {
   text-decoration: none;
   color: #003366;
-  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid grey;
 }
 
 .cerca {
